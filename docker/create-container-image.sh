@@ -17,4 +17,4 @@ docker buildx build --push --platform=linux/amd64 -t thekiwisre/lab-client .
 cd ..
 
 # Delete the folder
-rm -rf datapool-manager
+rm -rf lab-client

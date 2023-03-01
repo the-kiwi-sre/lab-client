@@ -1,5 +1,5 @@
 FROM node:latest
 WORKDIR /app
 COPY . /app
-EXPOSE 9192
+EXPOSE 9190
 CMD ["node", "index.js", "service1-service"]

@@ -7,7 +7,7 @@ let myVar = setInterval(function(){ timer() }, 10000);
 
 function timer() 
 {
-    request('http//' + process.argv[2] + '/api', { json: true }, (err, res, body) => {
+    request('http//' + process.argv[2] + ':9190/api', { json: true }, (err, res, body) => {
         if (err) { return console.log(err); }
         console.log(body.url);
         console.log(body.explanation);
