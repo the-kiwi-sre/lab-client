@@ -1,0 +1,3 @@
+{
+	"service_url": "http://service1-service.prometheus-lab.svc.cluster.local:9190/api"
+}
